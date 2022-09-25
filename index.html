@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<script src="fancifymytext.js"></script>
+		
+		</head>
 
-<head>
-    <title>Welcome to my website</title>
-</head>
-
-<body>
-    <h1>This is my website! It's just boilerplate though at this moment</h1>
-
-</body>
-
+	<body>
+		<h1>Fancify my Text</h1>
+		
+		<p><label for="fs">Text</label></p>
+		<fieldset id="fs" style="border-style: solid">
+			<form>
+				<textarea rows="4" cols="30" id="ta"></textarea>
+			</form>
+		
+		</fieldset>
+		
+		<p><label for="fs2">Fancify</label></p>
+		<fieldset id="fs2" style="border-style: solid">
+			<form>
+				<button type="button" onclick="alertUser()">Bigger!</button>
+				<button type="button" onclick="moo()">Moo</button>
+		
+				<input type="radio" id="FancyShmancy" name="list" onchange="radio()">
+				<label for="FancyShmancy">FancyShmancy</label>
+				<input type="radio" id="BoringBetty" name="list" onchange="radio()">
+				<label for="BoringBetty">BoringBetty</label>
+		
+			</form>
+		
+		</fieldset>
+		
+		
+		<!-- Your UI controls go here -->
+		
+		</body>
 </html>
